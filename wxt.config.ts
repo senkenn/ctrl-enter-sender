@@ -7,7 +7,12 @@ export default defineConfig({
         description: '__MSG_extensionDescription__',
         default_locale: 'en',
         version: '1.3.2',
-        permissions: ['storage'],
+        permissions: ['storage', 'activeTab'],
+        browser_specific_settings: {
+            gecko: {
+                id: 'ctrl-enter-sender@senkenn',
+            },
+        },
         host_permissions: ['<all_urls>'],
         icons: {
             '16': 'icons/icon16.png',
