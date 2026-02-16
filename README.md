@@ -34,3 +34,5 @@ pnpm test:e2e     # e2e tests (playwright)
 ```
 
 Built with [WXT](https://wxt.dev) + React + TypeScript.
+
+Inspired by [ctrlEnterSenderA](https://github.com/kimura512/ctrlEnterSenderA)
