@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Discord Mock - Slate Editor</title>
+  <style>
+    body { font-family: sans-serif; padding: 20px; background: #313338; color: #dbdee1; }
+    #log { margin-top: 20px; padding: 10px; background: #1e1f22; border-radius: 4px; font-family: monospace; font-size: 12px; white-space: pre-wrap; min-height: 100px; }
+    .chat-container { display: flex; align-items: flex-end; gap: 8px; }
+    [role="textbox"] {
+      flex: 1; min-height: 40px; padding: 10px; background: #383a40; border-radius: 8px;
+      color: #dbdee1; outline: none; white-space: pre-wrap;
+    }
+    button[aria-label="Send Message"] {
+      padding: 8px 16px; background: #5865f2; color: white; border: none;
+      border-radius: 4px; cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h3>Discord Mock (Slate Editor Simulation)</h3>
+  <div class="chat-container">
+    <div id="editor"
+         role="textbox"
+         data-slate-editor="true"
+         contenteditable="true"
+         spellcheck="true">
+    </div>
+    <button aria-label="Send Message" id="send-btn">Send</button>
+  </div>
+  <div id="log"></div>
+
+  <script>
+    // Simulate Slate editor's React fiber structure on the textbox element.
+    // Discord's Slate stores the editor object in the React fiber tree.
+    const editor = document.getElementById('editor');
+    const log = document.getElementById('log');
+
+    function addLog(msg) {
+      log.textContent += msg + '\n';
+    }
+
+    // Track insertSoftBreak calls
+    let softBreakCount = 0;
+
+    // Create a mock React fiber that mimics Discord's structure.
+    // The real fiber has memoizedProps.editor.insertSoftBreak at some depth.
+    const mockFiber = {
+      memoizedProps: {},
+      return: {
+        memoizedProps: {},
+        return: {
+          memoizedProps: {
+            editor: {
+              insertSoftBreak() {
+                softBreakCount++;
+                addLog('[SLATE] insertSoftBreak called (#' + softBreakCount + ')');
+                // Actually insert a newline into the contenteditable
+                const sel = window.getSelection();
+                if (sel && sel.rangeCount > 0) {
+                  const range = sel.getRangeAt(0);
+                  const br = document.createElement('br');
+                  range.deleteContents();
+                  range.insertNode(br);
+                  range.setStartAfter(br);
+                  range.setEndAfter(br);
+                  sel.removeAllRanges();
+                  sel.addRange(range);
+                }
+              }
+            }
+          },
+          return: null
+        }
+      }
+    };
+
+    // Attach the fiber to the element, just like React does.
+    // The key is __reactFiber$ followed by a random suffix.
+    const fiberKey = '__reactFiber$mock123';
+    editor[fiberKey] = mockFiber;
+
+    // Track send count
+    let sendCount = 0;
+
+    // Simulate Discord's Slate behavior: Enter keydown on textbox sends the message
+    editor.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' && !e.shiftKey && !e.ctrlKey && !e.metaKey && !e.altKey) {
+        sendCount++;
+        addLog('[SEND] Enter keydown → send (#' + sendCount + ')');
+      }
+    });
+
+    // Also track button clicks (legacy)
+    document.getElementById('send-btn').addEventListener('click', () => {
+      sendCount++;
+      addLog('[SEND] Send button clicked (#' + sendCount + ')');
+    });
+
+    // Expose counters for Playwright assertions
+    window.__testState = {
+      get softBreakCount() { return softBreakCount; },
+      get sendCount() { return sendCount; },
+    };
+
+    addLog('[INIT] Discord mock ready. Fiber attached as ' + fiberKey);
+    addLog('[INIT] Waiting for extension to inject MAIN world script...');
+  </script>
+</body>
+</html>
