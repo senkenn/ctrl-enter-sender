@@ -1,0 +1,240 @@
+{
+  "extensionName": {
+    "message": "Ctrl+Enter Sender",
+    "description": "Extension name"
+  },
+  "extensionDescription": {
+    "message": "Надсилайте повідомлення за допомогою Ctrl+Enter і вставляйте нові рядки за допомогою Enter на різних веб-сайтах.",
+    "description": "Extension description"
+  },
+  "popupTitle": {
+    "message": "Ctrl+Enter Sender",
+    "description": "Popup title"
+  },
+  "currentDomain": {
+    "message": "Поточний домен",
+    "description": "Current domain label"
+  },
+  "enableForThisSite": {
+    "message": "Увімкнути для цього сайту",
+    "description": "Enable toggle label"
+  },
+  "advancedSettings": {
+    "message": "Розширені налаштування",
+    "description": "Advanced Settings link"
+  },
+  "reportIssue": {
+    "message": "Bug Report | Feature Request",
+    "description": "Bug Report and Feature Request link"
+  },
+  "optionsTitle": {
+    "message": "Налаштування Ctrl+Enter Sender",
+    "description": "Options page title"
+  },
+  "configuredDomains": {
+    "message": "Налаштовані домени",
+    "description": "Configured domains header"
+  },
+  "defaultConfiguredDomains": {
+    "message": "Домени, налаштовані за замовчуванням",
+    "description": "Default configured domains header"
+  },
+  "userConfiguredDomains": {
+    "message": "Домени, налаштовані користувачем",
+    "description": "User configured domains header"
+  },
+  "domain": {
+    "message": "Домен",
+    "description": "Domain column header"
+  },
+  "enabled": {
+    "message": "Увімкнено",
+    "description": "Enabled column header"
+  },
+  "noDomainsConfigured": {
+    "message": "Ще немає збережених конфігурацій доменів. Відвідайте сайт і використовуйте спливаюче вікно для налаштування.",
+    "description": "Empty state message"
+  },
+  "reset": {
+    "message": "Скинути",
+    "description": "Reset button"
+  },
+  "resetAll": {
+    "message": "Reset All",
+    "description": "Button to reset all settings"
+  },
+  "resetAllConfirm": {
+    "message": "All settings will be reset. Are you sure you want to reset?",
+    "description": "Reset all confirmation message"
+  },
+  "resetConfirm": {
+    "message": "Ви впевнені, що хочете скинути налаштування для $DOMAIN$?",
+    "description": "Reset confirmation message",
+    "placeholders": {
+      "domain": {
+        "content": "$1",
+        "example": "https://example.com"
+      }
+    }
+  },
+  "noDomainAvailable": {
+    "message": "(None)",
+    "description": "Message when domain is not available"
+  },
+  "specialPageNotSupported": {
+    "message": "This extension does not work on this page.",
+    "description": "Explanation that extension does not work on special pages"
+  },
+  "loading": {
+    "message": "Завантаження...",
+    "description": "Loading message"
+  },
+  "loadingConfig": {
+    "message": "Завантаження конфігурації...",
+    "description": "Loading config message"
+  },
+  "onboardingTitle": {
+    "message": "Ласкаво просимо до Ctrl+Enter Sender!",
+    "description": "Onboarding title"
+  },
+  "onboardingDescription": {
+    "message": "За замовчуванням поведінка клавіші «Enter» на всіх веб-сайтах змінюється з «Надіслати» на «Новий рядок».",
+    "description": "Onboarding description start"
+  },
+  "onboardingEnterNewline": {
+    "message": "Enter → Новий рядок",
+    "description": "Enter key behavior"
+  },
+  "onboardingCtrlEnterSend": {
+    "message": "Ctrl+Enter → Надіслати",
+    "description": "Ctrl+Enter key behavior"
+  },
+  "onboardingSiteToggle": {
+    "message": "У будь-якому режимі ви можете індивідуально вмикати/вимикати розширення зі спливаючого вікна.",
+    "description": "Site toggle explanation"
+  },
+  "onboardingDefaultEnabled": {
+    "message": "Ви також можете змінити на 'За замовчуванням ВИМК (Режим білого списку)' в налаштуваннях.",
+    "description": "Explanation that extension is ON by default"
+  },
+  "onboardingAdvancedSettings": {
+    "message": "* Деякі сайти (наприклад, Twitter, Google Пошук) мають інші налаштування за замовчуванням.",
+    "description": "Advanced settings explanation"
+  },
+  "onboardingGotIt": {
+    "message": "Зрозуміло!",
+    "description": "Got it button"
+  },
+  "helpTitle": {
+    "message": "Help",
+    "description": "Help section title"
+  },
+  "whatsNewTitle": {
+    "message": "Що нового",
+    "description": "What's new title"
+  },
+  "whatsNewClose": {
+    "message": "Закрити",
+    "description": "Close button"
+  },
+  "supportDeveloper": {
+    "message": "Підтримати розробника",
+    "description": "Support section title"
+  },
+  "supportDescription": {
+    "message": "Якщо ви вважаєте це розширення корисним, розгляньте можливість підтримки розробника:",
+    "description": "Support description"
+  },
+  "buyMeACoffee": {
+    "message": "Купити мені каву",
+    "description": "Buy Me a Coffee link"
+  },
+  "patreon": {
+    "message": "Patreon",
+    "description": "Patreon link"
+  },
+  "whatsNewDescription": {
+    "message": "Перевірте останні оновлення та покращення!",
+    "description": "What's new description"
+  },
+  "version": {
+    "message": "Версія",
+    "description": "Version label"
+  },
+  "supportWarningTitle": {
+    "message": "⚠️ Попередження: Будь ласка, абсолютно не натискайте!",
+    "description": "Support warning title"
+  },
+  "supportWarningMessage1": {
+    "message": "Навіть якщо ви вважаєте це розширення \"хорошим\" або \"корисним\", будь ласка, не натискайте кнопки нижче.",
+    "description": "Support warning message 1"
+  },
+  "supportWarningMessage2": {
+    "message": "Не підтримуйте навіть чашкою кави.",
+    "description": "Support warning message 2"
+  },
+  "supportWarningMessage3": {
+    "message": "Я не можу сказати вам чому...",
+    "description": "Support warning message 3"
+  },
+  "supportWarningMessage4": {
+    "message": "Додавання",
+    "description": "Support warning message 4 (first part)"
+  },
+  "supportWarningMessage5": {
+    "message": "коментаря подяки",
+    "description": "Support warning message 5 (hidden comment part)"
+  },
+  "supportWarningMessage6": {
+    "message": "разом з підтримкою абсолютно заборонено.",
+    "description": "Support warning message 6 (latter part)"
+  },
+  "supportWarningMessage7": {
+    "message": "Ви розумієте? Абсолютно не натискайте!!",
+    "description": "Support warning message 7"
+  },
+  "ignoreWarningCheckbox": {
+    "message": "Ігнорувати попередження та продовжити",
+    "description": "Checkbox label to ignore warning"
+  },
+  "activationMode": {
+    "message": "Режим активації",
+    "description": "Activation mode section title"
+  },
+  "activationModeDescription": {
+    "message": "Виберіть, як розширення активується на веб-сайтах.",
+    "description": "Activation mode description"
+  },
+  "blacklistMode": {
+    "message": "За замовчуванням УВІМК (Режим чорного списку)",
+    "description": "Blacklist mode option label"
+  },
+  "blacklistModeDesc": {
+    "message": "Увімкнено на всіх сайтах за замовчуванням. Вимкнути певні сайти.",
+    "description": "Blacklist mode description"
+  },
+  "whitelistMode": {
+    "message": "За замовчуванням ВИМК (Режим білого списку)",
+    "description": "Whitelist mode option label"
+  },
+  "whitelistModeDesc": {
+    "message": "Вимкнено на всіх сайтах за замовчуванням. Увімкнути певні сайти.",
+    "description": "Whitelist mode description"
+  },
+  "activationModeChangeConfirm": {
+    "message": "Зміна режиму активації вплине на роботу розширення на всіх веб-сайтах. Продовжити?",
+    "description": "Confirmation message when changing activation mode"
+  },
+  "modeBlacklist": {
+    "message": "Чорний список",
+    "description": "Short label for blacklist mode"
+  },
+  "modeWhitelist": {
+    "message": "Білий список",
+    "description": "Short label for whitelist mode"
+  },
+  "optionsDescription": {
+    "message": "Це розширення запобігає 'Enter для відправлення' на веб-сайтах і змінює його на 'Ctrl+Enter' для відправлення.\nВиберіть бажаний режим активації (Білий список/Чорний список) і налаштуйте параметри для кожного сайту за потреби.",
+    "description": "Options page description"
+  }
+}

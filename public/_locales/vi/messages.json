@@ -1,0 +1,240 @@
+{
+  "extensionName": {
+    "message": "Ctrl+Enter Sender",
+    "description": "Extension name"
+  },
+  "extensionDescription": {
+    "message": "Gửi tin nhắn bằng Ctrl+Enter và xuống dòng bằng Enter trên các trang web khác nhau.",
+    "description": "Extension description"
+  },
+  "popupTitle": {
+    "message": "Ctrl+Enter Sender",
+    "description": "Popup title"
+  },
+  "currentDomain": {
+    "message": "Miền hiện tại",
+    "description": "Current domain label"
+  },
+  "enableForThisSite": {
+    "message": "Bật cho trang web này",
+    "description": "Enable toggle label"
+  },
+  "advancedSettings": {
+    "message": "Cài đặt nâng cao",
+    "description": "Advanced Settings link"
+  },
+  "reportIssue": {
+    "message": "Bug Report | Feature Request",
+    "description": "Bug Report and Feature Request link"
+  },
+  "optionsTitle": {
+    "message": "Cài đặt Ctrl+Enter Sender",
+    "description": "Options page title"
+  },
+  "configuredDomains": {
+    "message": "Miền đã định cấu hình",
+    "description": "Configured domains header"
+  },
+  "defaultConfiguredDomains": {
+    "message": "Miền đã định cấu hình mặc định",
+    "description": "Default configured domains header"
+  },
+  "userConfiguredDomains": {
+    "message": "Miền do người dùng định cấu hình",
+    "description": "User configured domains header"
+  },
+  "domain": {
+    "message": "Miền",
+    "description": "Domain column header"
+  },
+  "enabled": {
+    "message": "Đã bật",
+    "description": "Enabled column header"
+  },
+  "noDomainsConfigured": {
+    "message": "Chưa có cấu hình miền nào được lưu. Truy cập một trang web và sử dụng cửa sổ bật lên để định cấu hình.",
+    "description": "Empty state message"
+  },
+  "reset": {
+    "message": "Đặt lại",
+    "description": "Reset button"
+  },
+  "resetAll": {
+    "message": "Reset All",
+    "description": "Button to reset all settings"
+  },
+  "resetAllConfirm": {
+    "message": "All settings will be reset. Are you sure you want to reset?",
+    "description": "Reset all confirmation message"
+  },
+  "resetConfirm": {
+    "message": "Bạn có chắc chắn muốn đặt lại cài đặt cho $DOMAIN$ không?",
+    "description": "Reset confirmation message",
+    "placeholders": {
+      "domain": {
+        "content": "$1",
+        "example": "https://example.com"
+      }
+    }
+  },
+  "noDomainAvailable": {
+    "message": "(None)",
+    "description": "Message when domain is not available"
+  },
+  "specialPageNotSupported": {
+    "message": "This extension does not work on this page.",
+    "description": "Explanation that extension does not work on special pages"
+  },
+  "loading": {
+    "message": "Đang tải...",
+    "description": "Loading message"
+  },
+  "loadingConfig": {
+    "message": "Đang tải cấu hình...",
+    "description": "Loading config message"
+  },
+  "onboardingTitle": {
+    "message": "Chào mừng đến với Ctrl+Enter Sender!",
+    "description": "Onboarding title"
+  },
+  "onboardingDescription": {
+    "message": "Theo mặc định, hành vi của phím 'Enter' trên tất cả các trang web được thay đổi từ 'Gửi' sang 'Dòng mới'.",
+    "description": "Onboarding description start"
+  },
+  "onboardingEnterNewline": {
+    "message": "Enter → Xuống dòng",
+    "description": "Enter key behavior"
+  },
+  "onboardingCtrlEnterSend": {
+    "message": "Ctrl+Enter → Gửi",
+    "description": "Ctrl+Enter key behavior"
+  },
+  "onboardingSiteToggle": {
+    "message": "Ở cả hai chế độ, bạn có thể bật/tắt tiện ích mở rộng riêng lẻ từ cửa sổ bật lên.",
+    "description": "Site toggle explanation"
+  },
+  "onboardingDefaultEnabled": {
+    "message": "Bạn cũng có thể thay đổi sang 'Mặc định TẮT (Chế độ Danh sách trắng)' từ cài đặt.",
+    "description": "Explanation that extension is ON by default"
+  },
+  "onboardingAdvancedSettings": {
+    "message": "* Một số trang web (như Twitter, Google Tìm kiếm) có cài đặt mặc định khác nhau.",
+    "description": "Advanced settings explanation"
+  },
+  "onboardingGotIt": {
+    "message": "Đã hiểu!",
+    "description": "Got it button"
+  },
+  "helpTitle": {
+    "message": "Trợ giúp",
+    "description": "Help section title"
+  },
+  "whatsNewTitle": {
+    "message": "Có gì mới",
+    "description": "What's new title"
+  },
+  "whatsNewClose": {
+    "message": "Đóng",
+    "description": "Close button"
+  },
+  "supportDeveloper": {
+    "message": "Hỗ trợ nhà phát triển",
+    "description": "Support section title"
+  },
+  "supportDescription": {
+    "message": "Nếu bạn thấy tiện ích mở rộng này hữu ích, hãy cân nhắc hỗ trợ nhà phát triển:",
+    "description": "Support description"
+  },
+  "buyMeACoffee": {
+    "message": "Mua cho tôi một ly cà phê",
+    "description": "Buy Me a Coffee link"
+  },
+  "patreon": {
+    "message": "Patreon",
+    "description": "Patreon link"
+  },
+  "whatsNewDescription": {
+    "message": "Kiểm tra các bản cập nhật và cải tiến mới nhất!",
+    "description": "What's new description"
+  },
+  "version": {
+    "message": "Phiên bản",
+    "description": "Version label"
+  },
+  "supportWarningTitle": {
+    "message": "⚠️ Cảnh báo: Làm ơn, tuyệt đối không nhấp chuột!",
+    "description": "Support warning title"
+  },
+  "supportWarningMessage1": {
+    "message": "Ngay cả khi bạn nghĩ tiện ích mở rộng này \"tốt\" hoặc \"hữu ích\", vui lòng không nhấp vào các nút bên dưới.",
+    "description": "Support warning message 1"
+  },
+  "supportWarningMessage2": {
+    "message": "Đừng hỗ trợ ngay cả chỉ với một tách cà phê.",
+    "description": "Support warning message 2"
+  },
+  "supportWarningMessage3": {
+    "message": "Tôi không thể cho bạn biết lý do...",
+    "description": "Support warning message 3"
+  },
+  "supportWarningMessage4": {
+    "message": "Việc thêm",
+    "description": "Support warning message 4 (first part)"
+  },
+  "supportWarningMessage5": {
+    "message": "bình luận cảm ơn",
+    "description": "Support warning message 5 (hidden comment part)"
+  },
+  "supportWarningMessage6": {
+    "message": "cùng với sự hỗ trợ là hoàn toàn bị cấm.",
+    "description": "Support warning message 6 (latter part)"
+  },
+  "supportWarningMessage7": {
+    "message": "Bạn có hiểu không? Tuyệt đối không nhấp chuột!!",
+    "description": "Support warning message 7"
+  },
+  "ignoreWarningCheckbox": {
+    "message": "Bỏ qua cảnh báo và tiếp tục",
+    "description": "Checkbox label to ignore warning"
+  },
+  "activationMode": {
+    "message": "Chế độ Kích hoạt",
+    "description": "Activation mode section title"
+  },
+  "activationModeDescription": {
+    "message": "Chọn cách tiện ích mở rộng được kích hoạt trên các trang web.",
+    "description": "Activation mode description"
+  },
+  "blacklistMode": {
+    "message": "Mặc định BẬT (Chế độ Danh sách đen)",
+    "description": "Blacklist mode option label"
+  },
+  "blacklistModeDesc": {
+    "message": "Được bật trên tất cả các trang web theo mặc định. Tắt các trang web cụ thể.",
+    "description": "Blacklist mode description"
+  },
+  "whitelistMode": {
+    "message": "Mặc định TẮT (Chế độ Danh sách trắng)",
+    "description": "Whitelist mode option label"
+  },
+  "whitelistModeDesc": {
+    "message": "Bị tắt trên tất cả các trang web theo mặc định. Bật các trang web cụ thể.",
+    "description": "Whitelist mode description"
+  },
+  "activationModeChangeConfirm": {
+    "message": "Thay đổi chế độ kích hoạt sẽ ảnh hưởng đến cách tiện ích mở rộng hoạt động trên tất cả các trang web. Tiếp tục?",
+    "description": "Confirmation message when changing activation mode"
+  },
+  "modeBlacklist": {
+    "message": "Danh sách đen",
+    "description": "Short label for blacklist mode"
+  },
+  "modeWhitelist": {
+    "message": "Danh sách trắng",
+    "description": "Short label for whitelist mode"
+  },
+  "optionsDescription": {
+    "message": "Tiện ích mở rộng này ngăn 'Enter để Gửi' trên các trang web và thay đổi thành 'Ctrl+Enter' để gửi.\nChọn chế độ kích hoạt ưa thích của bạn (Danh sách trắng/Danh sách đen) và định cấu hình cài đặt cho từng trang web nếu cần.",
+    "description": "Options page description"
+  }
+}

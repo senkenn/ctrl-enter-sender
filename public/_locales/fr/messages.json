@@ -1,0 +1,240 @@
+{
+  "extensionName": {
+    "message": "Ctrl+Enter Sender",
+    "description": "Extension name"
+  },
+  "extensionDescription": {
+    "message": "Envoyez des messages avec Ctrl+Entrée et insérez des sauts de ligne avec Entrée sur divers sites Web.",
+    "description": "Extension description"
+  },
+  "popupTitle": {
+    "message": "Ctrl+Enter Sender",
+    "description": "Popup title"
+  },
+  "currentDomain": {
+    "message": "Domaine actuel",
+    "description": "Current domain label"
+  },
+  "enableForThisSite": {
+    "message": "Activer pour ce site",
+    "description": "Enable toggle label"
+  },
+  "advancedSettings": {
+    "message": "Paramètres avancés",
+    "description": "Advanced Settings link"
+  },
+  "reportIssue": {
+    "message": "Bug Report | Feature Request",
+    "description": "Bug Report and Feature Request link"
+  },
+  "optionsTitle": {
+    "message": "Paramètres de Ctrl+Enter Sender",
+    "description": "Options page title"
+  },
+  "configuredDomains": {
+    "message": "Domaines configurés",
+    "description": "Configured domains header"
+  },
+  "defaultConfiguredDomains": {
+    "message": "Domaines configurés par défaut",
+    "description": "Default configured domains header"
+  },
+  "userConfiguredDomains": {
+    "message": "Domaines configurés par l'utilisateur",
+    "description": "User configured domains header"
+  },
+  "domain": {
+    "message": "Domaine",
+    "description": "Domain column header"
+  },
+  "enabled": {
+    "message": "Activé",
+    "description": "Enabled column header"
+  },
+  "noDomainsConfigured": {
+    "message": "Aucune configuration de domaine enregistrée. Visitez un site et utilisez la popup pour configurer.",
+    "description": "Empty state message"
+  },
+  "reset": {
+    "message": "Réinitialiser",
+    "description": "Reset button"
+  },
+  "resetAll": {
+    "message": "Reset All",
+    "description": "Button to reset all settings"
+  },
+  "resetAllConfirm": {
+    "message": "All settings will be reset. Are you sure you want to reset?",
+    "description": "Reset all confirmation message"
+  },
+  "resetConfirm": {
+    "message": "Êtes-vous sûr de vouloir réinitialiser les paramètres pour $DOMAIN$ ?",
+    "description": "Reset confirmation message",
+    "placeholders": {
+      "domain": {
+        "content": "$1",
+        "example": "https://example.com"
+      }
+    }
+  },
+  "noDomainAvailable": {
+    "message": "(None)",
+    "description": "Message when domain is not available"
+  },
+  "specialPageNotSupported": {
+    "message": "This extension does not work on this page.",
+    "description": "Explanation that extension does not work on special pages"
+  },
+  "loading": {
+    "message": "Chargement...",
+    "description": "Loading message"
+  },
+  "loadingConfig": {
+    "message": "Chargement de la configuration...",
+    "description": "Loading config message"
+  },
+  "onboardingTitle": {
+    "message": "Bienvenue dans Ctrl+Enter Sender !",
+    "description": "Onboarding title"
+  },
+  "onboardingDescription": {
+    "message": "Par défaut, le comportement de la touche 'Entrée' sur tous les sites Web passe de 'Envoyer' à 'Nouvelle ligne'.",
+    "description": "Onboarding description start"
+  },
+  "onboardingEnterNewline": {
+    "message": "Entrée → Nouvelle ligne",
+    "description": "Enter key behavior"
+  },
+  "onboardingCtrlEnterSend": {
+    "message": "Ctrl+Entrée → Envoyer",
+    "description": "Ctrl+Enter key behavior"
+  },
+  "onboardingSiteToggle": {
+    "message": "Dans les deux modes, vous pouvez activer/désactiver individuellement l'extension via la popup.",
+    "description": "Site toggle explanation"
+  },
+  "onboardingDefaultEnabled": {
+    "message": "Vous pouvez également passer en 'Défaut DÉSACTIVÉ (Mode Liste blanche)' depuis les paramètres.",
+    "description": "Explanation that extension is ON by default"
+  },
+  "onboardingAdvancedSettings": {
+    "message": "* Certains sites (comme Twitter, Google Recherche) ont des paramètres par défaut différents.",
+    "description": "Advanced settings explanation"
+  },
+  "onboardingGotIt": {
+    "message": "Compris !",
+    "description": "Got it button"
+  },
+  "helpTitle": {
+    "message": "Aide",
+    "description": "Help section title"
+  },
+  "whatsNewTitle": {
+    "message": "Quoi de neuf",
+    "description": "What's new title"
+  },
+  "whatsNewClose": {
+    "message": "Fermer",
+    "description": "Close button"
+  },
+  "supportDeveloper": {
+    "message": "Soutenir le développeur",
+    "description": "Support section title"
+  },
+  "supportDescription": {
+    "message": "Si vous trouvez cette extension utile, envisagez de soutenir le développeur :",
+    "description": "Support description"
+  },
+  "buyMeACoffee": {
+    "message": "Offrez-moi un café",
+    "description": "Buy Me a Coffee link"
+  },
+  "patreon": {
+    "message": "Patreon",
+    "description": "Patreon link"
+  },
+  "whatsNewDescription": {
+    "message": "Découvrez les dernières mises à jour et améliorations !",
+    "description": "What's new description"
+  },
+  "version": {
+    "message": "Version",
+    "description": "Version label"
+  },
+  "supportWarningTitle": {
+    "message": "⚠️ Attention : S'il vous plaît, ne cliquez absolument pas !",
+    "description": "Support warning title"
+  },
+  "supportWarningMessage1": {
+    "message": "Même si vous pensez que cette extension est \"bien\" ou \"utile\", s'il vous plaît ne cliquez pas sur les boutons ci-dessous.",
+    "description": "Support warning message 1"
+  },
+  "supportWarningMessage2": {
+    "message": "Ne soutenez même pas avec juste une tasse de café.",
+    "description": "Support warning message 2"
+  },
+  "supportWarningMessage3": {
+    "message": "Je ne peux pas vous dire pourquoi...",
+    "description": "Support warning message 3"
+  },
+  "supportWarningMessage4": {
+    "message": "Ajouter",
+    "description": "Support warning message 4 (first part)"
+  },
+  "supportWarningMessage5": {
+    "message": "un commentaire de remerciement",
+    "description": "Support warning message 5 (hidden comment part)"
+  },
+  "supportWarningMessage6": {
+    "message": "avec le soutien est absolument interdit.",
+    "description": "Support warning message 6 (latter part)"
+  },
+  "supportWarningMessage7": {
+    "message": "Comprenez-vous ? Ne cliquez absolument pas !!",
+    "description": "Support warning message 7"
+  },
+  "ignoreWarningCheckbox": {
+    "message": "Ignorer l'avertissement et continuer",
+    "description": "Checkbox label to ignore warning"
+  },
+  "activationMode": {
+    "message": "Mode d'activation",
+    "description": "Activation mode section title"
+  },
+  "activationModeDescription": {
+    "message": "Choisissez comment l'extension est activée sur les sites Web.",
+    "description": "Activation mode description"
+  },
+  "blacklistMode": {
+    "message": "Défaut ACTIVÉ (Mode Liste noire)",
+    "description": "Blacklist mode option label"
+  },
+  "blacklistModeDesc": {
+    "message": "Activé sur tous les sites par défaut. Désactiver des sites spécifiques.",
+    "description": "Blacklist mode description"
+  },
+  "whitelistMode": {
+    "message": "Défaut DÉSACTIVÉ (Mode Liste blanche)",
+    "description": "Whitelist mode option label"
+  },
+  "whitelistModeDesc": {
+    "message": "Désactivé sur tous les sites par défaut. Activer des sites spécifiques.",
+    "description": "Whitelist mode description"
+  },
+  "activationModeChangeConfirm": {
+    "message": "Changer le mode d'activation affectera le fonctionnement de l'extension sur tous les sites Web. Continuer ?",
+    "description": "Confirmation message when changing activation mode"
+  },
+  "modeBlacklist": {
+    "message": "Liste noire",
+    "description": "Short label for blacklist mode"
+  },
+  "modeWhitelist": {
+    "message": "Liste blanche",
+    "description": "Short label for whitelist mode"
+  },
+  "optionsDescription": {
+    "message": "Cette extension empêche 'Entrée pour envoyer' sur les sites Web et le change en 'Ctrl+Entrée' pour envoyer.\nSélectionnez votre mode d'activation préféré (Liste blanche/Liste noire) et configurez les paramètres par site si nécessaire.",
+    "description": "Options page description"
+  }
+}

@@ -1,0 +1,240 @@
+{
+  "extensionName": {
+    "message": "Ctrl+Enter Sender",
+    "description": "Extension name"
+  },
+  "extensionDescription": {
+    "message": "在各种网站上使用 Ctrl+Enter 发送消息，使用 Enter 换行。",
+    "description": "Extension description"
+  },
+  "popupTitle": {
+    "message": "Ctrl+Enter Sender",
+    "description": "Popup title"
+  },
+  "currentDomain": {
+    "message": "当前域名",
+    "description": "Current domain label"
+  },
+  "enableForThisSite": {
+    "message": "在此网站启用",
+    "description": "Enable toggle label"
+  },
+  "advancedSettings": {
+    "message": "高级设置",
+    "description": "Advanced Settings link"
+  },
+  "reportIssue": {
+    "message": "バグ報告 | 機能要望",
+    "description": "Bug Report and Feature Request link"
+  },
+  "optionsTitle": {
+    "message": "Ctrl+Enter Sender 设置",
+    "description": "Options page title"
+  },
+  "configuredDomains": {
+    "message": "已配置的域名",
+    "description": "Configured domains header"
+  },
+  "defaultConfiguredDomains": {
+    "message": "默认配置的域名",
+    "description": "Default configured domains header"
+  },
+  "userConfiguredDomains": {
+    "message": "用户配置的域名",
+    "description": "User configured domains header"
+  },
+  "domain": {
+    "message": "域名",
+    "description": "Domain column header"
+  },
+  "enabled": {
+    "message": "启用",
+    "description": "Enabled column header"
+  },
+  "noDomainsConfigured": {
+    "message": "尚未保存任何域名配置。访问网站并使用弹出窗口进行配置。",
+    "description": "Empty state message"
+  },
+  "reset": {
+    "message": "重置",
+    "description": "Reset button"
+  },
+  "resetAll": {
+    "message": "初始化",
+    "description": "Button to reset all settings"
+  },
+  "resetAllConfirm": {
+    "message": "所有设置将被初始化，确定要初始化吗？",
+    "description": "Reset all confirmation message"
+  },
+  "resetConfirm": {
+    "message": "确定要重置 $DOMAIN$ 的设置吗？",
+    "description": "Reset confirmation message",
+    "placeholders": {
+      "domain": {
+        "content": "$1",
+        "example": "https://example.com"
+      }
+    }
+  },
+  "noDomainAvailable": {
+    "message": "（无）",
+    "description": "Message when domain is not available"
+  },
+  "specialPageNotSupported": {
+    "message": "此扩展程序在此页面上不起作用。",
+    "description": "Explanation that extension does not work on special pages"
+  },
+  "loading": {
+    "message": "加载中...",
+    "description": "Loading message"
+  },
+  "loadingConfig": {
+    "message": "正在加载配置...",
+    "description": "Loading config message"
+  },
+  "onboardingTitle": {
+    "message": "欢迎使用 Ctrl+Enter Sender！",
+    "description": "Onboarding title"
+  },
+  "onboardingDescription": {
+    "message": "默认为在所有网站上将“Enter”行为从“发送”更改为“换行”。",
+    "description": "Onboarding description start"
+  },
+  "onboardingEnterNewline": {
+    "message": "换行",
+    "description": "Enter key behavior"
+  },
+  "onboardingCtrlEnterSend": {
+    "message": "发送",
+    "description": "Ctrl+Enter key behavior"
+  },
+  "onboardingSiteToggle": {
+    "message": "无论在哪种模式下，您都可以通过弹窗单独开启/关闭扩展功能。",
+    "description": "Site toggle explanation"
+  },
+  "onboardingDefaultEnabled": {
+    "message": "您也可以在设置中切换为“默认关闭（白名单模式）”。",
+    "description": "Explanation that extension is ON by default"
+  },
+  "onboardingAdvancedSettings": {
+    "message": "※ 部分网站（如 Twitter, Google 搜索）有不同的默认设置。",
+    "description": "Advanced settings explanation"
+  },
+  "onboardingGotIt": {
+    "message": "明白了！",
+    "description": "Got it button"
+  },
+  "helpTitle": {
+    "message": "帮助",
+    "description": "Help section title"
+  },
+  "whatsNewTitle": {
+    "message": "更新内容",
+    "description": "What's new title"
+  },
+  "whatsNewClose": {
+    "message": "关闭",
+    "description": "Close button"
+  },
+  "supportDeveloper": {
+    "message": "支持开发者",
+    "description": "Support section title"
+  },
+  "supportDescription": {
+    "message": "如果您觉得这个扩展有用，请考虑支持开发者：",
+    "description": "Support description"
+  },
+  "buyMeACoffee": {
+    "message": "请我喝杯咖啡",
+    "description": "Buy Me a Coffee link"
+  },
+  "patreon": {
+    "message": "Patreon",
+    "description": "Patreon link"
+  },
+  "whatsNewDescription": {
+    "message": "查看最新的更新和改进！",
+    "description": "What's new description"
+  },
+  "version": {
+    "message": "版本",
+    "description": "Version label"
+  },
+  "supportWarningTitle": {
+    "message": "⚠️ 警告：请绝对不要点击！",
+    "description": "Support warning title"
+  },
+  "supportWarningMessage1": {
+    "message": "即使您觉得这个扩展“很好”或“有帮助”，也请不要点击下面的按钮。",
+    "description": "Support warning message 1"
+  },
+  "supportWarningMessage2": {
+    "message": "即使只是一杯咖啡的支持，也请不要做。",
+    "description": "Support warning message 2"
+  },
+  "supportWarningMessage3": {
+    "message": "我不能告诉您原因...",
+    "description": "Support warning message 3"
+  },
+  "supportWarningMessage4": {
+    "message": "在支持的同时添加",
+    "description": "Support warning message 4 (first part)"
+  },
+  "supportWarningMessage5": {
+    "message": "感谢评论",
+    "description": "Support warning message 5 (hidden comment part)"
+  },
+  "supportWarningMessage6": {
+    "message": "是绝对不允许的。",
+    "description": "Support warning message 6 (latter part)"
+  },
+  "supportWarningMessage7": {
+    "message": "您明白了吗？绝对不要点击！！",
+    "description": "Support warning message 7"
+  },
+  "ignoreWarningCheckbox": {
+    "message": "忽略警告并继续",
+    "description": "Checkbox label to ignore warning"
+  },
+  "activationMode": {
+    "message": "激活模式",
+    "description": "Activation mode section title"
+  },
+  "activationModeDescription": {
+    "message": "选择扩展在网站上的激活方式。",
+    "description": "Activation mode description"
+  },
+  "blacklistMode": {
+    "message": "默认开启（黑名单模式）",
+    "description": "Blacklist mode option label"
+  },
+  "blacklistModeDesc": {
+    "message": "默认在所有网站开启。可禁用特定网站。",
+    "description": "Blacklist mode description"
+  },
+  "whitelistMode": {
+    "message": "默认关闭（白名单模式）",
+    "description": "Whitelist mode option label"
+  },
+  "whitelistModeDesc": {
+    "message": "默认在所有网站关闭。可开启特定网站。",
+    "description": "Whitelist mode description"
+  },
+  "activationModeChangeConfirm": {
+    "message": "更改激活模式将影响扩展在所有网站上的工作方式。是否继续？",
+    "description": "Confirmation message when changing activation mode"
+  },
+  "modeBlacklist": {
+    "message": "黑名单",
+    "description": "Short label for blacklist mode"
+  },
+  "modeWhitelist": {
+    "message": "白名单",
+    "description": "Short label for whitelist mode"
+  },
+  "optionsDescription": {
+    "message": "此扩展防止在网站上“按 Enter 发送”，并将其更改为“按 Ctrl+Enter”发送。\n选择您首选的激活模式（白名单/黑名单），并根据需要配置每个站点的设置。",
+    "description": "Options page description"
+  }
+}

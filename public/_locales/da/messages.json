@@ -1,0 +1,240 @@
+{
+  "extensionName": {
+    "message": "Ctrl+Enter Sender",
+    "description": "Extension name"
+  },
+  "extensionDescription": {
+    "message": "Send beskeder med Ctrl+Enter og indsæt nye linjer med Enter på forskellige websteder.",
+    "description": "Extension description"
+  },
+  "popupTitle": {
+    "message": "Ctrl+Enter Sender",
+    "description": "Popup title"
+  },
+  "currentDomain": {
+    "message": "Nuværende domæne",
+    "description": "Current domain label"
+  },
+  "enableForThisSite": {
+    "message": "Aktiver for dette websted",
+    "description": "Enable toggle label"
+  },
+  "advancedSettings": {
+    "message": "Avancerede indstillinger",
+    "description": "Advanced Settings link"
+  },
+  "reportIssue": {
+    "message": "Bug Report | Feature Request",
+    "description": "Bug Report and Feature Request link"
+  },
+  "optionsTitle": {
+    "message": "Ctrl+Enter Sender Indstillinger",
+    "description": "Options page title"
+  },
+  "configuredDomains": {
+    "message": "Konfigurerede domæner",
+    "description": "Configured domains header"
+  },
+  "defaultConfiguredDomains": {
+    "message": "Standard konfigurerede domæner",
+    "description": "Default configured domains header"
+  },
+  "userConfiguredDomains": {
+    "message": "Brugerkonfigurerede domæner",
+    "description": "User configured domains header"
+  },
+  "domain": {
+    "message": "Domæne",
+    "description": "Domain column header"
+  },
+  "enabled": {
+    "message": "Aktiveret",
+    "description": "Enabled column header"
+  },
+  "noDomainsConfigured": {
+    "message": "Ingen domæne konfigurationer gemt endnu. Besøg et websted og brug popup-vinduet til at konfigurere.",
+    "description": "Empty state message"
+  },
+  "reset": {
+    "message": "Nulstil",
+    "description": "Reset button"
+  },
+  "resetAll": {
+    "message": "Reset All",
+    "description": "Button to reset all settings"
+  },
+  "resetAllConfirm": {
+    "message": "All settings will be reset. Are you sure you want to reset?",
+    "description": "Reset all confirmation message"
+  },
+  "resetConfirm": {
+    "message": "Er du sikker på, at du vil nulstille indstillingerne for $DOMAIN$?",
+    "description": "Reset confirmation message",
+    "placeholders": {
+      "domain": {
+        "content": "$1",
+        "example": "https://example.com"
+      }
+    }
+  },
+  "noDomainAvailable": {
+    "message": "(None)",
+    "description": "Message when domain is not available"
+  },
+  "specialPageNotSupported": {
+    "message": "This extension does not work on this page.",
+    "description": "Explanation that extension does not work on special pages"
+  },
+  "loading": {
+    "message": "Indlæser...",
+    "description": "Loading message"
+  },
+  "loadingConfig": {
+    "message": "Indlæser konfiguration...",
+    "description": "Loading config message"
+  },
+  "onboardingTitle": {
+    "message": "Velkommen til Ctrl+Enter Sender!",
+    "description": "Onboarding title"
+  },
+  "onboardingDescription": {
+    "message": "Som standard ændres 'Enter'-adfærd på alle websteder fra 'Send' til 'Ny linje'.",
+    "description": "Onboarding description start"
+  },
+  "onboardingEnterNewline": {
+    "message": "Enter → Ny linje",
+    "description": "Enter key behavior"
+  },
+  "onboardingCtrlEnterSend": {
+    "message": "Ctrl+Enter → Send",
+    "description": "Ctrl+Enter key behavior"
+  },
+  "onboardingSiteToggle": {
+    "message": "I begge tilstande kan du individuelt slå udvidelsen TIL/FRA fra pop op-vinduet.",
+    "description": "Site toggle explanation"
+  },
+  "onboardingDefaultEnabled": {
+    "message": "Du kan også skifte til 'Standard FRA (Hvidliste-tilstand)' fra indstillingerne.",
+    "description": "Explanation that extension is ON by default"
+  },
+  "onboardingAdvancedSettings": {
+    "message": "* Nogle websteder (som Twitter, Google Søgning) har forskellige standardindstillinger.",
+    "description": "Advanced settings explanation"
+  },
+  "onboardingGotIt": {
+    "message": "Forstået!",
+    "description": "Got it button"
+  },
+  "helpTitle": {
+    "message": "Help",
+    "description": "Help section title"
+  },
+  "whatsNewTitle": {
+    "message": "Hvad er nyt",
+    "description": "What's new title"
+  },
+  "whatsNewClose": {
+    "message": "Luk",
+    "description": "Close button"
+  },
+  "supportDeveloper": {
+    "message": "Støt udvikleren",
+    "description": "Support section title"
+  },
+  "supportDescription": {
+    "message": "Hvis du finder denne udvidelse nyttig, overvej at støtte udvikleren:",
+    "description": "Support description"
+  },
+  "buyMeACoffee": {
+    "message": "Køb mig en kaffe",
+    "description": "Buy Me a Coffee link"
+  },
+  "patreon": {
+    "message": "Patreon",
+    "description": "Patreon link"
+  },
+  "whatsNewDescription": {
+    "message": "Tjek de seneste opdateringer og forbedringer!",
+    "description": "What's new description"
+  },
+  "version": {
+    "message": "Version",
+    "description": "Version label"
+  },
+  "supportWarningTitle": {
+    "message": "⚠️ Advarsel: Vær venlig, klik absolut ikke!",
+    "description": "Support warning title"
+  },
+  "supportWarningMessage1": {
+    "message": "Selvom du synes, at denne udvidelse er \"god\" eller \"nyttig\", skal du ikke klikke på knapperne nedenfor.",
+    "description": "Support warning message 1"
+  },
+  "supportWarningMessage2": {
+    "message": "Støt ikke engang med bare en kop kaffe.",
+    "description": "Support warning message 2"
+  },
+  "supportWarningMessage3": {
+    "message": "Jeg kan ikke fortælle dig hvorfor...",
+    "description": "Support warning message 3"
+  },
+  "supportWarningMessage4": {
+    "message": "At tilføje",
+    "description": "Support warning message 4 (first part)"
+  },
+  "supportWarningMessage5": {
+    "message": "en takkommentar",
+    "description": "Support warning message 5 (hidden comment part)"
+  },
+  "supportWarningMessage6": {
+    "message": "sammen med støtte er absolut forbudt.",
+    "description": "Support warning message 6 (latter part)"
+  },
+  "supportWarningMessage7": {
+    "message": "Forstår du? Klik absolut ikke!!",
+    "description": "Support warning message 7"
+  },
+  "ignoreWarningCheckbox": {
+    "message": "Ignorer advarsel og fortsæt",
+    "description": "Checkbox label to ignore warning"
+  },
+  "activationMode": {
+    "message": "Aktiveringstilstand",
+    "description": "Activation mode section title"
+  },
+  "activationModeDescription": {
+    "message": "Vælg, hvordan udvidelsen aktiveres på websteder.",
+    "description": "Activation mode description"
+  },
+  "blacklistMode": {
+    "message": "Standard TIL (Sortliste-tilstand)",
+    "description": "Blacklist mode option label"
+  },
+  "blacklistModeDesc": {
+    "message": "Aktiveret på alle websteder som standard. Deaktiver bestemte websteder.",
+    "description": "Blacklist mode description"
+  },
+  "whitelistMode": {
+    "message": "Standard FRA (Hvidliste-tilstand)",
+    "description": "Whitelist mode option label"
+  },
+  "whitelistModeDesc": {
+    "message": "Deaktiveret på alle websteder som standard. Aktiver bestemte websteder.",
+    "description": "Whitelist mode description"
+  },
+  "activationModeChangeConfirm": {
+    "message": "Ændring af aktiveringstilstand vil påvirke, hvordan udvidelsen fungerer på alle websteder. Fortsæt?",
+    "description": "Confirmation message when changing activation mode"
+  },
+  "modeBlacklist": {
+    "message": "Sortliste",
+    "description": "Short label for blacklist mode"
+  },
+  "modeWhitelist": {
+    "message": "Hvidliste",
+    "description": "Short label for whitelist mode"
+  },
+  "optionsDescription": {
+    "message": "Denne udvidelse forhindrer 'Enter for at sende' på websteder og ændrer det til 'Ctrl+Enter' for at sende.\nVælg din foretrukne aktiveringstilstand (Hvidliste/Sortliste), og konfigurer indstillinger pr. websted efter behov.",
+    "description": "Options page description"
+  }
+}
