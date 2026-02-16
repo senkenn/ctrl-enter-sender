@@ -2,6 +2,8 @@
 
 Chrome/Firefox extension that swaps Enter and Ctrl+Enter behavior on chat websites — Enter inserts a newline, Ctrl+Enter sends the message.
 
+Inspired by [ctrlEnterSenderA](https://github.com/kimura512/ctrlEnterSenderA)
+
 ## Supported Sites
 
 | Site | Adapter |
@@ -34,5 +36,3 @@ pnpm test:e2e     # e2e tests (playwright)
 ```
 
 Built with [WXT](https://wxt.dev) + React + TypeScript.
-
-Inspired by [ctrlEnterSenderA](https://github.com/kimura512/ctrlEnterSenderA)
