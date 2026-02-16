@@ -24,6 +24,12 @@ Inspired by [ctrlEnterSenderA](https://github.com/kimura512/ctrlEnterSenderA)
 - **35 languages** — i18n with `_locales`
 - **Storage sync** — settings sync across devices via `chrome.storage.sync`
 
+## Install
+
+1. `pnpm install && pnpm build`
+2. Chrome: `chrome://extensions` → **Developer mode** ON → **Load unpacked** → select `.output/chrome-mv3`
+3. Firefox: `about:debugging#/runtime/this-firefox` → **Load Temporary Add-on** → select `.output/firefox-mv2/manifest.json`
+
 ## Development
 
 ```bash
